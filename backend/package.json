@@ -1,0 +1,23 @@
+{
+  "name": "livefxhub-backend",
+  "version": "1.0.0",
+  "description": "Real-time pricing engine backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["websocket", "real-time", "pricing"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "mongoose": "^8.0.3",
+    "dotenv": "^16.3.1",
+    "msgpack-lite": "^0.1.26"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
